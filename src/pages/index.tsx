@@ -12,9 +12,6 @@ export default function Home() {
     fetch(url, {
       method: "PUT",
       body: file,
-      headers: {
-        "content-md5": "vhJTkFLoyrTFYektgbAK6A==",
-      },
     });
   };
 
